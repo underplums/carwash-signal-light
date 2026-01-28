@@ -6,7 +6,7 @@ decode_results results;
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("IR decoder is ready. ");
+  Serial.println("IR decoder is ready.");
   irrecv.enableIRIn();
 }
 
